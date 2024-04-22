@@ -1,0 +1,23 @@
+From c481d99fa88b0d15c09d59edf93861fd8251c890 Mon Sep 17 00:00:00 2001
+From: Youssef-74 <yosifesam98@gmail.com>
+Date: Mon, 22 Apr 2024 09:18:10 +0200
+Subject: [PATCH] Modified Makefile to include scull and other changes
+
+---
+ Makefile | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 7b08c49..c4f2e2e 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,5 @@
+ 
+-SUBDIRS =  misc-progs misc-modules \
+-           skull scull scullc scullp lddbus sculld scullv shortprint simple tty \
+-	   pci usb\
+-	   sbull snull short
++SUBDIRS =  misc-modules scull
+ 
+ all: subdirs
+ 
