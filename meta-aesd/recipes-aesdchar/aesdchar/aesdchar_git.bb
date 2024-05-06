@@ -16,7 +16,7 @@ SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-Youssef-74.
 
 # Modify these as desired
 PV = "1.0+git${SRCPV}"
-SRCREV = "116389790b3fb10b577df9bd90923c6841bbede6"
+SRCREV = "38858e56cd865c6c97089e35bfb3154ef7242e24"
 
 S = "${WORKDIR}/git/aesd-char-driver"
 
